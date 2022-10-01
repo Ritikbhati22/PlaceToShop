@@ -1,0 +1,82 @@
+.header{
+    height: 20px;
+    display: flex;
+    align-items: center;
+    background-color: #121910;
+    top: 0;
+    z-index: 100;
+    position: sticky;
+}
+.Logo{
+    display: flex;
+    color: #ff9f00;
+    margin: 0 25px;
+    align-content: center;
+}
+.icon{
+    margin-right: 10px;
+    margin-top: 27px;
+}
+.Title{
+    color:lightblue;
+    text-decoration: none;
+    border: 0;
+
+}
+.searchbar{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    border-radius: 60px;
+    margin: 0 24px;
+}
+.Search{
+    height: 12px;
+    padding: 10px;
+  border-style:solid;
+    width: 100%;
+    color:rgb(219, 144, 45);
+}
+.SearchIcon{
+    padding: 6px;
+    height: 22px !important;
+    background:#ff9f00;
+    border-radius: 5px;
+}
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5px;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    color:white;
+}
+.one{
+    font-size: 15px;
+    padding-bottom: 2px;
+    color: rgb(219, 144, 45);
+}
+.App{
+    background: #000;
+}
+.two{
+    font-size: 15px;
+    padding-top: 2px;
+    font-weight: 800;
+    color: rgb(66, 202, 252);
+}
+.cart{
+    display: flex;
+    align-items: center;
+    color: rgb(219, 144, 45);
+    margin-right: 50px;
+    margin-left: 10px;
+}
+.count{
+    margin-left: 16px;
+    margin-right: 10px;
+}
