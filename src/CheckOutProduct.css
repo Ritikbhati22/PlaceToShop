@@ -1,0 +1,34 @@
+.checkout{
+    display:inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.Checkout_img{
+    /* max-height: 150px;
+    padding-left: 20px; */
+    object-fit: contain;
+    width: 180px;
+    height: 180px;
+}
+.CheckOutproduct_title{
+    padding-left: 25px;
+    padding-bottom: 30px;
+    margin-top: -20px;
+}
+.ratings{
+    padding-left: 20px;
+    margin-top: -20px;
+    display: flex;
+}
+.basket{
+    
+    margin-top: -20px;
+    margin-left: 20px;
+    background:#ff9f00 ;
+    border: 1px solid;
+    margin-top: 10px;
+    color: black;
+    border-color: #a88734 #9c7e31 #846a29;
+}

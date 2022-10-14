@@ -1,15 +1,10 @@
-.header{
-    height: 20px;
-    display: flex;
-    align-items: center;
-    background-color: #121910;
-    top: 0;
-    z-index: 100;
+.Header{
+    background-color:rgb(91, 175, 208);
     position: sticky;
 }
 .Logo{
     display: flex;
-    color: #ff9f00;
+    color: black;
     margin: 0 25px;
     align-content: center;
 }
@@ -18,7 +13,7 @@
     margin-top: 27px;
 }
 .Title{
-    color:lightblue;
+    color:whitesmoke;
     text-decoration: none;
     border: 0;
 
@@ -40,8 +35,12 @@
 .SearchIcon{
     padding: 6px;
     height: 22px !important;
-    background:#ff9f00;
+    background:white;
     border-radius: 5px;
+    
+}
+.SearchIcon:hover{
+    color: blueviolet;
 }
 .nav{
     display: flex;
@@ -55,28 +54,35 @@
     margin-right: 10px;
     color:white;
 }
+.item:hover{
+    color:white;
+
+}
 .one{
     font-size: 15px;
     padding-bottom: 2px;
-    color: rgb(219, 144, 45);
+    color: black;
 }
-.App{
-    background: #000;
-}
+/* .App{
+    background: rgb(91, 175, 208);
+
+
+    
+} */
 .two{
     font-size: 15px;
     padding-top: 2px;
     font-weight: 800;
-    color: rgb(66, 202, 252);
+    color: white;
 }
-.cart{
+.item{
     display: flex;
     align-items: center;
-    color: rgb(219, 144, 45);
+    color: black;
     margin-right: 50px;
     margin-left: 10px;
 }
 .count{
-    margin-left: 16px;
+    margin-left: 10px;
     margin-right: 10px;
 }

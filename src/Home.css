@@ -1,0 +1,18 @@
+.home_image{
+    height: 400px;
+    width: 100%;
+    z-index: -1;
+    margin-bottom: -50px;
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1),rgba(0,0,0,0));
+
+}
+.home{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.home_row{
+    /* display: flex; */
+    display: inline-block;;
+}
